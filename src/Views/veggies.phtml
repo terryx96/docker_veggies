@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <?php 
+            foreach ($veggies as $name => $color) {
+                $veggie = new Veggie($name, $color);
+                echo $veggie->getName() . " is " . $veggie->getColor() . "<br>";
+            }
+        ?>
+    </body>
+</html>
